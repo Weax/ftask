@@ -17,6 +17,9 @@ iv.	Code; <br />
 
 ## About the app:
 
+Registration:<br />
+Only Name and Email fields are mandatory.
+
 Inside src/api folder You will see apiBuilder component. This way I tried to mimic operations with localStorage like with traditional API's. I found this approach more reusable for the future app scaling than persisting State object using Redux middleware, store.subscribe() or else.
 
 During development I tried to make components as reusable as possible. I didn't use Redux store for table and autocomplete parts with purpose of making them independent as much as possible.
