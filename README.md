@@ -2,22 +2,20 @@
 
 Application should consist of: 
 
-1.	New user registration form with validations: 
-a.	Name 
-b.	Surname 
-c.	Email 
-d.	Address (Use Google places api or other map service): 
-i.	Country; 
-ii.	City; 
-iii.House; 
-iv.	Code; 
+1.	New user registration form with validations:<br />
+a.	Name <br />
+b.	Surname <br />
+c.	Email <br />
+d.	Address (Use Google places api or other map service): <br />
+i.	Country; <br />
+ii.	City; <br />
+iii.House; <br />
+iv.	Code; <br />
 2.	Data should be saved to „localStorage“; 
 3.	List of all registered users; 
 4.	Entered fields must be editable;
 
-## Test app
-
-About the app:
+## About the app:
 
 Inside src/api folder You will see apiBuilder component. This way I tried to mimic operations with localStorage like with traditional API's. I found this approach more reusable for the future app scaling than persisting State object using Redux middleware, store.subscribe() or else.
 
