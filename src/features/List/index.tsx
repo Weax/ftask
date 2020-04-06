@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { loadItems, selectItems } from "./slice";
 import EnhancedTable, { HeadCell } from "../../common/table";
-import { Grid, Typography, Card, CardContent } from "@material-ui/core";
+import { Grid, Card, CardContent } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import UserEditForm from "./UserEditForm";
 import { User, emptyUser } from "../../api/User";

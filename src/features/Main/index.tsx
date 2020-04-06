@@ -28,7 +28,7 @@ export default function Main() {
           <Grid item xs={12} className={classes.header}>
             <Typography variant="h6" align="center">
               UserSystem
-          </Typography>
+            </Typography>
           </Grid>
           <Grid item xs={12} className={classes.feature}>
             <Button
