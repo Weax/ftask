@@ -1,3 +1,20 @@
+## Task
+
+Application should consist of: 
+
+1.	New user registration form with validations: 
+a.	Name 
+b.	Surname 
+c.	Email 
+d.	Address (Use Google places api or other map service): 
+i.	Country; 
+ii.	City; 
+iii.House; 
+iv.	Code; 
+2.	Data should be saved to „localStorage“; 
+3.	List of all registered users; 
+4.	Entered fields must be editable;
+
 ## Test app
 
 About the app:
